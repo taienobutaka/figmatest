@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>商品登録ページ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="f387-bg">
+      <div class="f387-title-row">
+        <span class="f387-title">商品登録ページ</span>
+      </div>
+      <div class="f387-logo-row">
+        <span class="f387-logo">mogitate</span>
+      </div>
+      <div class="f387-main-card">
+        <form class="f387-form-block f387-register-form">
+          <h2 class="f387-register-title">商品登録</h2>
+          <div class="f387-form-row">
+            <label class="f387-form-label"
+              >商品名 <span class="f387-required">必須</span></label
+            >
+            <input
+              type="text"
+              class="f387-form-input"
+              placeholder="商品名を入力"
+            />
+          </div>
+          <div class="f387-form-row">
+            <label class="f387-form-label"
+              >価格 <span class="f387-required">必須</span></label
+            >
+            <input
+              type="text"
+              class="f387-form-input"
+              placeholder="価格を入力"
+            />
+          </div>
+          <div class="f387-form-row">
+            <label class="f387-form-label"
+              >商品画像 <span class="f387-required">必須</span></label
+            >
+            <label class="f387-file-label">
+              <input type="file" style="display: none" />
+              ファイルを選択
+            </label>
+          </div>
+          <div class="f387-form-row f387-radio-row">
+            <label class="f387-form-label"
+              >季節 <span class="f387-required">必須</span></label
+            >
+            <label><input type="radio" name="season" /> 春</label>
+            <label><input type="radio" name="season" /> 夏</label>
+            <label><input type="radio" name="season" /> 秋</label>
+            <label><input type="radio" name="season" /> 冬</label>
+          </div>
+          <div class="f387-form-row">
+            <label class="f387-form-label">商品説明</label>
+            <textarea
+              class="f387-form-textarea"
+              placeholder="商品説明を入力"
+            ></textarea>
+          </div>
+          <div class="f387-btn-row">
+            <button type="button" class="f387-cancel-btn">戻る</button>
+            <button type="submit" class="f387-save-btn">登録</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

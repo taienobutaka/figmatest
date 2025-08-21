@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>商品詳細</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="f387-bg">
+      <div class="f387-title-row">
+        <span class="f387-title">商品詳細画面</span>
+      </div>
+      <div class="f387-logo-row">
+        <span class="f387-logo">mogitate</span>
+      </div>
+      <div class="f387-main-card">
+        <div class="f387-main-flex">
+          <div class="f387-image-block">
+            <a href="#" class="f387-breadcrumb">商品一覧 ＞ キウイ</a>
+            <img
+              src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80"
+              alt="キウイ"
+              class="f387-product-image"
+            />
+            <label class="f387-file-label">
+              <input type="file" style="display: none" />
+              ファイルを選択
+            </label>
+            <span class="f387-file-name">kiwi01.jpeg</span>
+          </div>
+          <form class="f387-form-block">
+            <div class="f387-form-row">
+              <label class="f387-form-label">商品名</label>
+              <input type="text" class="f387-form-input" value="キウイ" />
+            </div>
+            <div class="f387-form-row">
+              <label class="f387-form-label">価格</label>
+              <input type="text" class="f387-form-input" value="600" />
+            </div>
+            <div class="f387-form-row f387-radio-row">
+              <label class="f387-form-label">季節</label>
+              <label><input type="radio" name="season" checked /> 夏</label>
+              <label><input type="radio" name="season" /> 秋</label>
+              <label><input type="radio" name="season" /> 冬</label>
+            </div>
+            <div class="f387-form-row">
+              <label class="f387-form-label">商品説明</label>
+              <textarea class="f387-form-textarea">
+太陽の光をたっぷり浴びたみずみずかなキウイはスイーツやヨーグルトにぴったりな人気のフルーツです。甘いお味やさっぱりとした酸味と一緒にお楽しみください。ぜひサラダやスムージーにもご活用ください！</textarea
+              >
+            </div>
+            <div class="f387-btn-row">
+              <button type="button" class="f387-cancel-btn">戻る</button>
+              <button type="submit" class="f387-save-btn">変更を保存</button>
+              <button type="button" class="f387-delete-btn" title="削除">
+                🗑️
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
