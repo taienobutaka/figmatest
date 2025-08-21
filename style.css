@@ -1,0 +1,566 @@
+/* 商品登録ページ用追加スタイル */
+.f387-register-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+  letter-spacing: 1.2px;
+  text-align: left;
+}
+.f387-required {
+  color: #e53935;
+  font-size: 0.95em;
+  font-weight: 600;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.f387-register-form .f387-form-input::placeholder,
+.f387-register-form .f387-form-textarea::placeholder {
+  color: #bdbdbd;
+  font-size: 0.98em;
+}
+.f387-register-form .f387-form-input,
+.f387-register-form .f387-form-textarea {
+  background: #fafafa;
+}
+.f387-register-form .f387-form-row {
+  margin-bottom: 8px;
+}
+.f387-register-form .f387-btn-row {
+  margin-top: 24px;
+}
+.f387-register-form .f387-save-btn {
+  background: #ffcc33;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.f387-register-form .f387-save-btn:hover {
+  background: #ffb347;
+}
+/* Frame 387 忠実再現用スタイル */
+.f387-bg {
+  min-height: 100vh;
+  background: #f3f3f3;
+  padding: 0;
+}
+.f387-title-row {
+  padding: 32px 0 0 48px;
+}
+.f387-title {
+  font-size: 2rem;
+  color: #bdbdbd;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.f387-logo-row {
+  padding: 0 0 8px 56px;
+}
+.f387-logo {
+  color: #ffcc33;
+  font-size: 1.2rem;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 600;
+}
+.f387-main-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  max-width: 900px;
+  margin: 32px auto 0 auto;
+  padding: 40px 32px 32px 32px;
+}
+.f387-main-flex {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+.f387-image-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  max-width: 340px;
+}
+.f387-breadcrumb {
+  color: #2196f3;
+  font-size: 0.95rem;
+  text-decoration: underline;
+  align-self: flex-start;
+  margin-bottom: 8px;
+}
+.f387-product-image {
+  width: 240px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.f387-file-label {
+  background: #e0e0e0;
+  color: #444;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.f387-file-name {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+.f387-form-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.f387-form-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.f387-form-label {
+  min-width: 64px;
+  color: #444;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.f387-form-input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.f387-radio-row label {
+  margin-right: 16px;
+  font-size: 1rem;
+  color: #444;
+}
+.f387-form-textarea {
+  width: 100%;
+  min-height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 8px 10px;
+  resize: vertical;
+}
+.f387-btn-row {
+  display: flex;
+  gap: 18px;
+  margin-top: 12px;
+}
+.f387-cancel-btn {
+  background: #e0e0e0;
+  color: #444;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.f387-cancel-btn:hover {
+  background: #d5d5d5;
+}
+.f387-save-btn {
+  background: #ffcc33;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.f387-save-btn:hover {
+  background: #ffb347;
+}
+.f387-delete-btn {
+  background: none;
+  border: none;
+  color: #e53935;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: 8px;
+  padding: 0 8px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.f387-delete-btn:hover {
+  background: #ffeaea;
+}
+/* Frame 387 デザイン用スタイル */
+.frame387-bg {
+  min-height: 100vh;
+  background: #f7f7fa;
+  padding: 0;
+}
+
+.frame387-header {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.frame387-back-btn {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  color: #181826;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  transition: background 0.15s;
+}
+.frame387-back-btn:hover {
+  background: #f0f0f0;
+}
+.frame387-header-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #181826;
+  letter-spacing: 1.2px;
+}
+
+.frame387-main {
+  max-width: 480px;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: 32px 28px 36px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame387-image-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+.frame387-product-image {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.frame387-info-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame387-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #181826;
+  margin-bottom: 14px;
+  letter-spacing: 1.2px;
+}
+.frame387-description {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 32px;
+  line-height: 1.7;
+}
+.frame387-bottom-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.frame387-price {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffb347;
+}
+.frame387-cart-btn {
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(255, 204, 51, 0.12);
+}
+.frame387-cart-btn:hover {
+  background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
+}
+/* Figma商品詳細画面（node-id=17-3286）用スタイル */
+.product-detail-main {
+  display: flex;
+  max-width: 900px;
+  margin: 56px auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+.product-image-block {
+  flex: 1 1 50%;
+  background: #f7f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 48px 24px;
+}
+
+.product-main-image {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.product-label {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  background: #ffb347;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 6px 18px;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 8px rgba(255, 204, 51, 0.12);
+}
+
+.product-info-block {
+  flex: 1 1 50%;
+  padding: 56px 40px 56px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-detail-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #181826;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+.product-detail-price {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #ffb347;
+  margin-bottom: 28px;
+}
+
+.product-detail-description {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 36px;
+  line-height: 1.7;
+}
+
+.product-detail-cart-btn {
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  padding: 18px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(255, 204, 51, 0.15);
+  width: 100%;
+  max-width: 320px;
+  align-self: flex-start;
+}
+.product-detail-cart-btn:hover {
+  background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
+}
+/* 商品詳細画面用スタイル */
+.product-detail-container {
+  display: flex;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.product-image-section {
+  flex: 1 1 50%;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 320px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.product-info-section {
+  flex: 1 1 50%;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.product-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e67e22;
+  margin-bottom: 32px;
+}
+
+.buy-button {
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(255, 204, 51, 0.15);
+}
+.buy-button:hover {
+  background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
+}
+/* Figmaデザインに基づくスタイル例。実際のデザインに合わせて後ほど詳細を調整します */
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "Noto Sans JP", "Helvetica", Arial,
+    sans-serif;
+  background: #fff;
+  color: #181826;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.main-area {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  padding: 40px 56px;
+  gap: 48px;
+}
+
+.left-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 480px;
+}
+
+.figma-logo-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.figma-logo {
+  width: 68px;
+  height: 102px;
+}
+
+.figma-text {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 120px;
+  font-weight: bold;
+  letter-spacing: 4.8px;
+  color: #000;
+  line-height: 1;
+}
+
+.main-title {
+  font-family: "Hiragino Kaku Gothic Pro", "Noto Sans JP", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 4.4px;
+  color: #000;
+  margin-bottom: 32px;
+}
+
+.banner {
+  background: #181826;
+  border-radius: 12px;
+  width: 477px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding-left: 34px;
+}
+
+.banner-text {
+  color: #fff;
+  font-size: 27px;
+  font-family: "Hiragino Kaku Gothic Pro", "Noto Sans JP", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2.7px;
+}
